@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Gợi Ý Thực Đơn Thể Hình</title>
+    <!-- Tích hợp Tailwind CSS qua CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center font-sans antialiased">
+
+    <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-2xl border-t-4 border-green-500">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">AI Diet Planner</h1>
+            <p class="text-gray-500 mt-2">Hệ thống gợi ý thực đơn thông minh áp dụng KNN</p>
+        </div>
+
+        <form action="/predict" method="POST" class="space-y-6">
+            <!-- Chia 2 cột cho các chỉ số cơ thể -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Độ tuổi</label>
+                    <input type="number" name="age" required placeholder="VD: 21" 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Giới tính</label>
+                    <select name="gender" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
+                        <option value="nam">Nam</option>
+                        <option value="nu">Nữ</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Chiều cao (cm)</label>
+                    <input type="number" name="height" required placeholder="VD: 175" 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Cân nặng (kg)</label>
+                    <input type="number" name="weight" step="0.1" required placeholder="VD: 68.5" 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none">
+                </div>
+            </div>
+
+            <!-- Các chỉ số vận động và mục tiêu nằm ngang dòng đủ rộng -->
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-1">Mức độ vận động</label>
+                <select name="activity" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
+                    <option value="it_van_dong">Ít vận động (Dân văn phòng)</option>
+                    <option value="nhe">Vận động nhẹ (Tập 1-3 ngày/tuần)</option>
+                    <option value="vua">Vận động vừa (Tập 3-5 ngày/tuần)</option>
+                    <option value="nhieu">Vận động nhiều (Tập nặng)</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-1">Mục tiêu tập luyện</label>
+                <select name="goal" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
+                    <option value="giam_mo">Giảm Mỡ (Cutting)</option>
+                    <option value="giu_can">Giữ Dáng (Maintaining)</option>
+                    <option value="tang_co">Tăng Cơ (Bulking)</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Dị ứng / Không ăn được (Tùy chọn)</label>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" name="allergies" value="no_pork" class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4">
+                        <span class="ml-2 text-sm text-gray-700">Thịt lợn (heo)</span>
+                    </label>
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" name="allergies" value="no_beef" class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4">
+                        <span class="ml-2 text-sm text-gray-700">Thịt bò</span>
+                    </label>
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" name="allergies" value="no_seafood" class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4">
+                        <span class="ml-2 text-sm text-gray-700">Hải sản (Cá, Tôm)</span>
+                    </label>
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" name="allergies" value="no_peanut" class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4">
+                        <span class="ml-2 text-sm text-gray-700">Lạc (Đậu phộng)</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" 
+                    class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 shadow-md">
+                Tính Toán & Nhận Gợi Ý
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>

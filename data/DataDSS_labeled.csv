@@ -1,0 +1,527 @@
+STT,Tên Thực Phẩm,Fat (g),Carbs (g),Protein (g),Calories (kcal),Nhóm thực phẩm,Nhóm Đa lượng chính
+1,Gạo nếp cái,1.5,74.5,8.6,344,Ngũ cốc và sản phẩm chế biến,Carb-rich
+2,Gạo nếp máy (Loại thường),1.6,74.9,8.4,346,Ngũ cốc và sản phẩm chế biến,Carb-rich
+3,Gạo tẻ giã,1.3,75,8.1,344,Ngũ cốc và sản phẩm chế biến,Carb-rich
+4,Gạo tẻ máy,1,75.9,7.9,344,Ngũ cốc và sản phẩm chế biến,Carb-rich
+5,Gạo lứt,2.7,72.8,7.5,345,Ngũ cốc và sản phẩm chế biến,Carb-rich
+6,Kê,3,69,7,331,Ngũ cốc và sản phẩm chế biến,Carb-rich
+7,Ngô bắp tươi,2.3,39.6,4.1,196,Ngũ cốc và sản phẩm chế biến,Carb-rich
+8,Ngô vàng hạt khô,4.7,69.4,8.6,354,Ngũ cốc và sản phẩm chế biến,Carb-rich
+9,Bánh bao nhân thịt,0.5,47.5,6.1,219,Ngũ cốc và sản phẩm chế biến,Carb-rich
+10,Bánh đa nem,0.2,78.9,4,333,Ngũ cốc và sản phẩm chế biến,Carb-rich
+11,Bánh đúc,0.3,11.3,0.9,52,Ngũ cốc và sản phẩm chế biến,Carb-rich
+12,Bánh mỳ,0.8,52.6,7.9,249,Ngũ cốc và sản phẩm chế biến,Carb-rich
+13,Bánh phở,0.4,31.7,3.2,143,Ngũ cốc và sản phẩm chế biến,Carb-rich
+14,Bánh quẩy,10.8,40.7,8,292,Ngũ cốc và sản phẩm chế biến,Carb-rich
+15,Bỏng ngô,1.6,80.8,8.6,372,Ngũ cốc và sản phẩm chế biến,Carb-rich
+16,Bột gạo nếp,1.6,78.8,8.2,362,Ngũ cốc và sản phẩm chế biến,Carb-rich
+17,Bột gạo tẻ,0.4,82.2,6.6,359,Ngũ cốc và sản phẩm chế biến,Carb-rich
+18,Bột mì,1.1,73.6,10.3,346,Ngũ cốc và sản phẩm chế biến,Carb-rich
+19,Bột ngô vàng,4,73,8.3,361,Ngũ cốc và sản phẩm chế biến,Carb-rich
+20,Bún,0,25.7,1.7,110,Ngũ cốc và sản phẩm chế biến,Carb-rich
+21,Cốm,0.8,66.3,6.1,297,Ngũ cốc và sản phẩm chế biến,Carb-rich
+22,Mỳ sợi,0.9,74.2,11,349,Ngũ cốc và sản phẩm chế biến,Carb-rich
+23,Ngô nếp luộc,2.2,32.9,3.9,167,Ngũ cốc và sản phẩm chế biến,Carb-rich
+24,Củ ấu,0.5,24,3.6,115,Khoai củ và sản phẩm chế biến,Carb-rich
+25,Củ cái,0.2,28.3,3.1,127,Khoai củ và sản phẩm chế biến,Carb-rich
+26,Củ dong,0,28.4,1.4,119,Khoai củ và sản phẩm chế biến,Carb-rich
+27,Củ sắn,0.2,36.4,1.1,152,Khoai củ và sản phẩm chế biến,Carb-rich
+28,Củ sắn dây,0.1,28,1.6,119,Khoai củ và sản phẩm chế biến,Carb-rich
+29,Củ súng khô (đã bỏ vỏ),0.5,70.3,16.1,350,Khoai củ và sản phẩm chế biến,Carb-rich
+30,Củ từ,0,21.5,1.5,92,Khoai củ và sản phẩm chế biến,Carb-rich
+31,Khoai lang,0.2,28.5,0.8,119,Khoai củ và sản phẩm chế biến,Carb-rich
+32,Khoai lang nghệ,0.3,27.1,1.2,116,Khoai củ và sản phẩm chế biến,Carb-rich
+33,Khoai môn,0.2,25.2,1.5,109,Khoai củ và sản phẩm chế biến,Carb-rich
+34,Khoai nước,0.1,23.3,1,98,Khoai củ và sản phẩm chế biến,Carb-rich
+35,Khoai riềng,0,25.1,0.8,104,Khoai củ và sản phẩm chế biến,Carb-rich
+36,Khoai sọ,0.1,26.5,1.8,114,Khoai củ và sản phẩm chế biến,Carb-rich
+37,Khoai tây,0.1,20.9,2,93,Khoai củ và sản phẩm chế biến,Carb-rich
+38,Miến dong,0.1,82.2,0.6,332,Khoai củ và sản phẩm chế biến,Carb-rich
+39,Bột dong lọc,0,84.7,0.6,341,Khoai củ và sản phẩm chế biến,Carb-rich
+40,Bột khoai lang,0.5,80.2,2.2,334,Khoai củ và sản phẩm chế biến,Carb-rich
+41,Bột khoai riềng (bột đao),0,84.1,0.2,337,Khoai củ và sản phẩm chế biến,Carb-rich
+42,Bột khoai tây (lọc),0.3,84.4,1,345,Khoai củ và sản phẩm chế biến,Carb-rich
+43,Bột sắn,0.5,79.6,2.4,333,Khoai củ và sản phẩm chế biến,Carb-rich
+44,Bột sắn dây,0,84.3,0.7,340,Khoai củ và sản phẩm chế biến,Carb-rich
+45,Khoai lang khô,0.5,80,2.2,333,Khoai củ và sản phẩm chế biến,Carb-rich
+46,Khoai tây khô,0.3,75.1,6.6,330,Khoai củ và sản phẩm chế biến,Carb-rich
+47,Khoai tây lát chiên,35.4,49.3,2.2,525,Khoai củ và sản phẩm chế biến,Fat-rich
+48,Sắn khô,0.7,80.3,3,340,Khoai củ và sản phẩm chế biến,Carb-rich
+49,Trân châu sắn,0,84.3,1,341,Khoai củ và sản phẩm chế biến,Carb-rich
+50,Cùi dừa già,36,6.2,4.8,368,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+51,Cùi dừa non,1.7,2.6,3.5,40,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+52,Đậu cô ve (hạt),1.6,54.9,21.8,321,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+53,Đậu đen (hạt),1.7,53.3,24.2,325,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+54,Đậu đũa (hạt),2,51.9,23.7,320,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+55,Đậu Hà lan (hạt),1.4,54.1,22.2,318,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+56,Đậu tương (đậu nành),18.4,24.6,34,400,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+57,Đậu trắng hạt (Đậu Tây),2.1,53.8,23.2,327,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+58,Đậu trứng cuốc,2,50,25.8,321,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+59,Đậu xanh (đậu tắt),2.4,53.1,23.4,328,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+60,Hạt dẻ to,59,8.7,18,638,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+61,Hạt dẻ tươi,1.1,49.1,4.2,223,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+62,Hạt dẻ khô,1.8,79.8,6.8,363,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+63,Hạt đen,29,35.5,17.3,472,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+64,Hạt điều,46.3,28.7,18.4,605,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+65,Hạt mít,1.1,38.3,0.7,166,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+66,Lạc hạt,44.5,15.5,27.5,573,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+67,Quả cọ tươi,13.4,12.1,2.3,178,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+68,Quả đại hái tươi,38,1.2,20,427,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+69,"Vừng (đen, trắng)",46.4,17.6,20.1,568,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+70,Bột đậu tương đã loại béo (đậu nành),1,29,49,321,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Protein-rich
+71,Bột đậu tương rang chín,18,22.9,41,418,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Protein-rich
+72,Bột đậu xanh,2.5,56.5,24.6,347,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+73,Bột lạc,45,15,27.5,575,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+74,Đậu phụ,5.4,0.7,10.9,95,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+75,Đậu phụ chúc,20.8,6.5,50.2,414,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Protein-rich
+76,Đậu phụ nướng,6.4,0.8,13.4,114,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+77,Hạt bí đỏ rang,31.8,23,35.1,519,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+78,Hạt dưa đỏ rang (dưa hấu),39.1,18,31.8,551,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+79,"Hạt điều khô, chiên dầu",49.3,16.4,18.3,583,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+80,Sữa bột đậu nành,9.7,48.2,31.1,405,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+81,Sữa đậu nành (100g đậu/lít),1.6,0.4,3.1,28,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Fat-rich
+82,Tào phớ,0.2,6.4,2.3,37,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Carb-rich
+83,Bầu,0.02,2.9,0.6,14,"Rau, quả, củ dùng làm rau",Carb-rich
+84,Bí đao (bí xanh),0,2.4,0.6,12,"Rau, quả, củ dùng làm rau",Carb-rich
+85,Bí ngô,0.1,6.1,0.3,27,"Rau, quả, củ dùng làm rau",Carb-rich
+86,Cà bát,0.2,4,1.2,23,"Rau, quả, củ dùng làm rau",Carb-rich
+87,Cà chua,0.2,4,0.6,20,"Rau, quả, củ dùng làm rau",Carb-rich
+88,Cà pháo,0,3.6,1.5,20,"Rau, quả, củ dùng làm rau",Carb-rich
+89,"Cà rốt (củ đỏ, vàng)",0.2,7.8,1.5,39,"Rau, quả, củ dùng làm rau",Carb-rich
+90,Cà rốt khô,1.5,60.4,9.2,292,"Rau, quả, củ dùng làm rau",Carb-rich
+91,Cà tím,0,4.5,1,22,"Rau, quả, củ dùng làm rau",Carb-rich
+92,Cải bắp,0.1,5.3,1.8,29,"Rau, quả, củ dùng làm rau",Carb-rich
+93,Cải bắp đỏ,0.2,9,1.9,45,"Rau, quả, củ dùng làm rau",Carb-rich
+94,Cải bắp khô,1.6,39.7,18,245,"Rau, quả, củ dùng làm rau",Carb-rich
+95,Cải cúc,0,1.9,1.6,14,"Rau, quả, củ dùng làm rau",Carb-rich
+96,Cải soong,0.1,1.3,2.1,15,"Rau, quả, củ dùng làm rau",Protein-rich
+97,Cải thìa (cải trắng),0.2,2.4,1.4,17,"Rau, quả, củ dùng làm rau",Carb-rich
+98,Cải xanh,0.2,1.9,1.7,16,"Rau, quả, củ dùng làm rau",Carb-rich
+99,Cần ta,0,1.5,1,10,"Rau, quả, củ dùng làm rau",Carb-rich
+100,Cần tây,0.2,7.9,3.7,48,"Rau, quả, củ dùng làm rau",Carb-rich
+101,Chuối xanh,0.5,16.4,1.2,74,"Rau, quả, củ dùng làm rau",Carb-rich
+102,Củ cải đỏ,0,10.8,1.3,48,"Rau, quả, củ dùng làm rau",Carb-rich
+103,Củ cải trắng,0.1,3.6,1.5,21,"Rau, quả, củ dùng làm rau",Carb-rich
+104,Củ cải trắng khô,1.5,33.9,17.6,220,"Rau, quả, củ dùng làm rau",Carb-rich
+105,Củ đậu,0,6,1,28,"Rau, quả, củ dùng làm rau",Carb-rich
+106,Củ niễng,0,5.4,2,30,"Rau, quả, củ dùng làm rau",Carb-rich
+107,Dọc củ cải (non),0,1.6,1.9,14,"Rau, quả, củ dùng làm rau",Protein-rich
+108,Dọc mùng,0,0.8,0.4,5,"Rau, quả, củ dùng làm rau",Carb-rich
+109,Dưa chuột,0.1,2.9,0.8,16,"Rau, quả, củ dùng làm rau",Carb-rich
+110,Dưa gang,0,2,0.8,11,"Rau, quả, củ dùng làm rau",Carb-rich
+111,Đậu cô ve,0,13.3,5,73,"Rau, quả, củ dùng làm rau",Carb-rich
+112,Đậu đũa,0.4,7.9,6,59,"Rau, quả, củ dùng làm rau",Carb-rich
+113,Đậu Hà Lan,0.4,10.6,6.5,72,"Rau, quả, củ dùng làm rau",Carb-rich
+114,Đậu rồng (quả non),0.1,6.3,1.9,34,"Rau, quả, củ dùng làm rau",Carb-rich
+115,Đu đủ xanh,0,4.6,0.8,22,"Rau, quả, củ dùng làm rau",Carb-rich
+116,Gấc,7.9,10.5,2.1,122,"Rau, quả, củ dùng làm rau",Fat-rich
+117,Giá đậu tương,1.8,8,7.7,79,"Rau, quả, củ dùng làm rau",Carb-rich
+118,Giá đậu xanh,0.2,5.1,5.5,44,"Rau, quả, củ dùng làm rau",Protein-rich
+119,Hành củ tươi,0.4,4.4,1.3,26,"Rau, quả, củ dùng làm rau",Carb-rich
+120,Hành lá (hành hoa),0,4.3,1.3,22,"Rau, quả, củ dùng làm rau",Carb-rich
+121,Hành tây,0.1,8.2,1.8,41,"Rau, quả, củ dùng làm rau",Carb-rich
+122,Hạt sen tươi,0.5,29.5,9.5,161,"Rau, quả, củ dùng làm rau",Carb-rich
+123,Hạt sen khô,2.4,58,20,334,"Rau, quả, củ dùng làm rau",Carb-rich
+124,Hẹ lá,0.3,1.5,2.2,18,"Rau, quả, củ dùng làm rau",Protein-rich
+125,Hoa chuối,0,3.5,1.5,20,"Rau, quả, củ dùng làm rau",Carb-rich
+126,Hoa lý,0,2.8,2.9,23,"Rau, quả, củ dùng làm rau",Protein-rich
+127,Khế,0.3,2.8,0.6,16,"Rau, quả, củ dùng làm rau",Carb-rich
+128,Lá lốt,0,5.4,4.3,39,"Rau, quả, củ dùng làm rau",Carb-rich
+129,Lá me,0,4,7.5,46,"Rau, quả, củ dùng làm rau",Protein-rich
+130,Lá mơ lông,0,2.9,3.9,27,"Rau, quả, củ dùng làm rau",Protein-rich
+131,Lá sắn tươi,0,12.6,7,78,"Rau, quả, củ dùng làm rau",Carb-rich
+132,Măng chua,0,1.4,1.4,11,"Rau, quả, củ dùng làm rau",Protein-rich
+133,Măng khô,2.1,21.5,13,157,"Rau, quả, củ dùng làm rau",Carb-rich
+134,Măng tây,0.1,1.1,2.2,14,"Rau, quả, củ dùng làm rau",Protein-rich
+135,Măng tre,0.3,1.4,1.7,15,"Rau, quả, củ dùng làm rau",Protein-rich
+136,Mướp,0.2,2.8,0.9,17,"Rau, quả, củ dùng làm rau",Carb-rich
+137,Mướp đắng,0.2,2.8,0.9,16,"Rau, quả, củ dùng làm rau",Carb-rich
+138,Mướp Nhật bản,0,1.8,0.8,10,"Rau, quả, củ dùng làm rau",Carb-rich
+139,Ngải cứu,0,2.4,3.8,25,"Rau, quả, củ dùng làm rau",Protein-rich
+140,Ngô bao tử,0.2,7.4,2.2,40,"Rau, quả, củ dùng làm rau",Carb-rich
+141,Ngó sen,0.1,13.9,1,61,"Rau, quả, củ dùng làm rau",Carb-rich
+142,Nụ mướp,0,2.5,4.9,30,"Rau, quả, củ dùng làm rau",Protein-rich
+143,ớt đỏ to,0.3,4,1,23,"Rau, quả, củ dùng làm rau",Carb-rich
+144,ớt vàng to,0.2,5.5,1.3,29,"Rau, quả, củ dùng làm rau",Carb-rich
+145,ớt xanh to,0.2,4.5,1.3,25,"Rau, quả, củ dùng làm rau",Carb-rich
+146,Quả dọc,0,3.9,0.8,19,"Rau, quả, củ dùng làm rau",Carb-rich
+147,Quả me chua,0,4.8,1.9,27,"Rau, quả, củ dùng làm rau",Carb-rich
+148,Rau bí,0,1.7,2.7,18,"Rau, quả, củ dùng làm rau",Protein-rich
+149,Rau câu khô,1.1,35.8,11.2,198,"Rau, quả, củ dùng làm rau",Carb-rich
+150,Rau câu tươi,0.1,4.1,1.9,25,"Rau, quả, củ dùng làm rau",Carb-rich
+151,Rau diếp,0.2,1.8,1.2,14,"Rau, quả, củ dùng làm rau",Carb-rich
+152,Rau đay,0.3,3,2.8,25,"Rau, quả, củ dùng làm rau",Carb-rich
+153,"Rau giấp cá, diếp cá",0,2.7,2.9,22,"Rau, quả, củ dùng làm rau",Protein-rich
+154,Rau giền cơm,0.3,1.1,3.4,21,"Rau, quả, củ dùng làm rau",Protein-rich
+155,Rau giền đỏ,0.3,6.2,3.3,41,"Rau, quả, củ dùng làm rau",Carb-rich
+156,Rau giền trắng,0.4,6.3,3.2,42,"Rau, quả, củ dùng làm rau",Carb-rich
+157,Rau húng,0.6,1.5,2.2,20,"Rau, quả, củ dùng làm rau",Protein-rich
+158,Rau khoai lang,0.3,2.5,2.6,23,"Rau, quả, củ dùng làm rau",Protein-rich
+159,Rau kinh giới,0,2.8,2.7,22,"Rau, quả, củ dùng làm rau",Carb-rich
+160,Rau má rừng,0,3.1,3.1,25,"Rau, quả, củ dùng làm rau",Protein-rich
+161,"Rau má, má mơ",0,1.8,3.2,20,"Rau, quả, củ dùng làm rau",Protein-rich
+162,Rau mồng tơi,0,1.4,2,14,"Rau, quả, củ dùng làm rau",Protein-rich
+163,Rau mùi,0.5,0.2,2.6,16,"Rau, quả, củ dùng làm rau",Protein-rich
+164,Rau mùi tàu,0.8,2.4,2.1,25,"Rau, quả, củ dùng làm rau",Carb-rich
+165,Rau muống,0.4,2.1,3.2,25,"Rau, quả, củ dùng làm rau",Protein-rich
+166,Rau muống khô,1.8,23,34.2,245,"Rau, quả, củ dùng làm rau",Protein-rich
+167,Rau ngổ,0,2.3,1.5,15,"Rau, quả, củ dùng làm rau",Carb-rich
+168,Rau ngót,0,3.4,5.3,35,"Rau, quả, củ dùng làm rau",Protein-rich
+169,Rau ngót khô,2.6,21.8,32.2,239,"Rau, quả, củ dùng làm rau",Protein-rich
+170,Rau răm,0,2.8,4.7,30,"Rau, quả, củ dùng làm rau",Protein-rich
+171,Rau rút,0,1.8,5.1,28,"Rau, quả, củ dùng làm rau",Protein-rich
+172,Rau sà lách,0.4,1.8,1.5,17,"Rau, quả, củ dùng làm rau",Carb-rich
+173,Rau sam,0,3,1.4,18,"Rau, quả, củ dùng làm rau",Carb-rich
+174,Rau sắng (chùa Hương),0,5.5,6.5,48,"Rau, quả, củ dùng làm rau",Protein-rich
+175,Rau tàu bay,0,1.9,2.5,18,"Rau, quả, củ dùng làm rau",Protein-rich
+176,Rau thơm,0,2.4,2,18,"Rau, quả, củ dùng làm rau",Carb-rich
+177,Sấu xanh,0,3,1.8,19,"Rau, quả, củ dùng làm rau",Carb-rich
+178,Su hào,0.1,6.2,2.8,37,"Rau, quả, củ dùng làm rau",Carb-rich
+179,Su hào khô,1.4,42.1,20,261,"Rau, quả, củ dùng làm rau",Carb-rich
+180,"Su su, quả",0.1,3.6,0.8,19,"Rau, quả, củ dùng làm rau",Carb-rich
+181,Súp lơ trắng,0.1,4.8,2.5,30,"Rau, quả, củ dùng làm rau",Carb-rich
+182,Súp lơ xanh,0.3,2.9,3,26,"Rau, quả, củ dùng làm rau",Protein-rich
+183,Thìa là,1.1,1.8,2.6,28,"Rau, quả, củ dùng làm rau",Protein-rich
+184,Tía tô,0,3.4,2.9,25,"Rau, quả, củ dùng làm rau",Carb-rich
+185,Tỏi ta,0.5,23,6,121,"Rau, quả, củ dùng làm rau",Carb-rich
+186,Tỏi tây (cả lá),0,5.9,1.4,29,"Rau, quả, củ dùng làm rau",Carb-rich
+187,Trám đen chín,10,3.6,2.5,114,"Rau, quả, củ dùng làm rau",Fat-rich
+188,"Trám xanh sống, trám trắng",1.6,4.4,1.2,37,"Rau, quả, củ dùng làm rau",Carb-rich
+189,Xương sông,0,1.5,2.2,15,"Rau, quả, củ dùng làm rau",Protein-rich
+190,Cà chua muối,0,1,0.6,6,"Rau, quả, củ dùng làm rau",Carb-rich
+191,Cà muối nén,0,2,1.3,13,"Rau, quả, củ dùng làm rau",Carb-rich
+192,Cà muối sổi,0,2.5,1.5,16,"Rau, quả, củ dùng làm rau",Carb-rich
+193,Dưa cải bắp,0,3.3,1.2,18,"Rau, quả, củ dùng làm rau",Carb-rich
+194,Dưa cải bẹ,0,2.4,1.8,17,"Rau, quả, củ dùng làm rau",Carb-rich
+195,Dưa cải sen,0,1.3,1.1,10,"Rau, quả, củ dùng làm rau",Carb-rich
+196,Dưa chuột muối,0,2.5,0.8,13,"Rau, quả, củ dùng làm rau",Carb-rich
+197,Dưa giá (đậu xanh),0,4.8,5,39,"Rau, quả, củ dùng làm rau",Protein-rich
+198,Hành củ muối,0,4,1.4,22,"Rau, quả, củ dùng làm rau",Carb-rich
+199,Kiệu muối,0,4.7,1.3,24,"Rau, quả, củ dùng làm rau",Carb-rich
+200,"Nhút (muối từ mít non, ngọn đậu xanh non...)",0,1.5,2.5,16,"Rau, quả, củ dùng làm rau",Protein-rich
+201,Men bia khô,3.2,25.4,52.5,340,"Rau, quả, củ dùng làm rau",Protein-rich
+202,Men bia tươi,1.3,4.5,16.2,95,"Rau, quả, củ dùng làm rau",Protein-rich
+203,Mộc nhĩ,0.2,65,10.6,304,"Rau, quả, củ dùng làm rau",Carb-rich
+204,Nấm hương khô,4,23.5,36,274,"Rau, quả, củ dùng làm rau",Protein-rich
+205,Nấm hương tươi,0.5,3.1,5.5,39,"Rau, quả, củ dùng làm rau",Protein-rich
+206,Nấm mỡ (Nấm tây),0.3,3.4,4,32,"Rau, quả, củ dùng làm rau",Protein-rich
+207,Nấm rơm,3.2,3.4,3.6,57,"Rau, quả, củ dùng làm rau",Fat-rich
+208,Nấm thường tươi,0.8,2.2,4.6,34,"Rau, quả, củ dùng làm rau",Protein-rich
+209,Bưởi,0,7.3,0.2,30,Quả chín,Carb-rich
+210,Cam,0.1,8.3,0.9,38,Quả chín,Carb-rich
+211,Chanh,0.3,4.5,0.9,24,Quả chín,Carb-rich
+212,Chôm chôm,0,16.4,1.5,72,Quả chín,Carb-rich
+213,Chuối khô,0,68,5,292,Quả chín,Carb-rich
+214,Chuối tây,0.3,12.4,0.9,56,Quả chín,Carb-rich
+215,Chuối tiêu,0.2,22.2,1.5,97,Quả chín,Carb-rich
+216,Dâu gia,0,6.2,0.6,27,Quả chín,Carb-rich
+217,Dâu tây,0.4,8.1,1.8,43,Quả chín,Carb-rich
+218,Dưa bở,0.2,3.6,0.5,18,Quả chín,Carb-rich
+219,Dưa hấu,0.2,2.3,1.2,16,Quả chín,Carb-rich
+220,Dưa hồng,0.1,3.7,0.3,17,Quả chín,Carb-rich
+221,Dưa lê,0,4.2,0.4,18,Quả chín,Carb-rich
+222,Dứa ta,0,6.5,0.8,29,Quả chín,Carb-rich
+223,Dứa tây,0.1,8.8,0.5,38,Quả chín,Carb-rich
+224,Đào,0.2,6.3,0.9,31,Quả chín,Carb-rich
+225,Đu đủ chín,0.1,7.6,1,36,Quả chín,Carb-rich
+226,Gioi,0.3,3.2,0.4,16,Quả chín,Carb-rich
+227,Hồng bì,0,7.2,1.4,34,Quả chín,Carb-rich
+228,Hồng đỏ,0.2,6,0.7,29,Quả chín,Carb-rich
+229,Hồng ngâm,0,8.6,0.9,38,Quả chín,Carb-rich
+230,Hồng xiêm,0.7,10,0.5,48,Quả chín,Carb-rich
+231,Lê,0.2,10.2,0.7,45,Quả chín,Carb-rich
+232,Lựu,0.3,16.2,0.6,70,Quả chín,Carb-rich
+233,Mãng cầu xiêm,0.6,10.1,1.8,53,Quả chín,Carb-rich
+234,Mắc coọc,0,5.7,0.2,24,Quả chín,Carb-rich
+235,Mận,0.2,3.9,0.6,20,Quả chín,Carb-rich
+236,Mít dai,0.3,11.1,0.6,50,Quả chín,Carb-rich
+237,Mít khô,0,67,2.9,280,Quả chín,Carb-rich
+238,Mít mật,0,14,1.5,62,Quả chín,Carb-rich
+239,Mơ,0.4,10.1,0.9,48,Quả chín,Carb-rich
+240,Mơ khô,1.1,62.8,3,273,Quả chín,Carb-rich
+241,"Muỗm, quéo",0.4,15.3,0.6,67,Quả chín,Carb-rich
+242,Na,0.3,14.2,1.6,66,Quả chín,Carb-rich
+243,Nhãn,0.1,10.9,0.9,48,Quả chín,Carb-rich
+244,Nhãn khô,0.5,65.9,4.3,285,Quả chín,Carb-rich
+245,Nho ngọt,0.2,16.3,0.4,68,Quả chín,Carb-rich
+246,Nho ta (nho chua),0,3.1,0.4,14,Quả chín,Carb-rich
+247,Nhót,0,2.1,1.2,13,Quả chín,Carb-rich
+248,ổi,1,6.8,0.6,38,Quả chín,Carb-rich
+249,Quả bơ vỏ tím,6.2,2.8,1.8,74,Quả chín,Fat-rich
+250,Quả bơ vỏ xanh,9.4,2.3,1.9,101,Quả chín,Fat-rich
+251,Quả cóc,0,12.8,1.8,58,Quả chín,Carb-rich
+252,Quả thanh long,0,8.7,1.3,40,Quả chín,Carb-rich
+253,Quả trứng gà,0.4,21.3,4.3,106,Quả chín,Carb-rich
+254,Quất chín (cả vỏ),0,5.5,0.9,26,Quả chín,Carb-rich
+255,Quít,0.3,8.3,0.8,39,Quả chín,Carb-rich
+256,Sầu riêng,1.6,26.9,2.5,132,Quả chín,Carb-rich
+257,Sấu chín,0,8.2,1.3,38,Quả chín,Carb-rich
+258,Táo ta,0.2,8.3,0.8,38,Quả chín,Carb-rich
+259,Táo tây,0.2,11,0.5,48,Quả chín,Carb-rich
+260,Vải,0.4,9.6,0.7,45,Quả chín,Carb-rich
+261,Vải khô,1.9,57.6,3,260,Quả chín,Carb-rich
+262,Vú sữa,0,9.4,1,42,Quả chín,Carb-rich
+263,Xoài chín,0.3,14.1,0.6,62,Quả chín,Carb-rich
+264,Quả kiwi,0.5,11.7,1.1,56,Quả chín,Carb-rich
+265,Bơ,83.5,0.5,0.5,756,"Dầu, mỡ, bơ",Fat-rich
+266,"Dầu thảo mộc (Lạc, vừng, cám...)",99.7,0,0,897,"Dầu, mỡ, bơ",Fat-rich
+267,Mỡ lợn muối,91,0,2,827,"Dầu, mỡ, bơ",Fat-rich
+268,Mỡ lợn nước,99.6,0,0,896,"Dầu, mỡ, bơ",Fat-rich
+269,Bơ thực vật,80.7,0.1,0.5,729,"Dầu, mỡ, bơ",Fat-rich
+270,Dầu bông,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+271,Dầu cám gạo,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+272,Dầu cọ,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+273,Dầu dừa,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+274,Dầu đậu tương,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+275,Dầu lạc,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+276,Dầu mè,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+277,Dầu ngô,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+278,Dầu oliu,100,0,0,900,"Dầu, mỡ, bơ",Fat-rich
+279,Thịt bê mỡ,7.5,0,19,144,Thịt và sản phẩm chế biến,Protein-rich
+280,Thịt bê nạc,0.5,0,20,85,Thịt và sản phẩm chế biến,Protein-rich
+281,Thịt bò loại I,3.8,0,21,118,Thịt và sản phẩm chế biến,Protein-rich
+282,Thịt bò loại II,10.5,0,18,167,Thịt và sản phẩm chế biến,Fat-rich
+283,"Thịt bò, lưng, nạc",3.9,0,23.1,127,Thịt và sản phẩm chế biến,Protein-rich
+284,"Thịt bò, lưng, nạc và mỡ",10.7,0,21.5,182,Thịt và sản phẩm chế biến,Fat-rich
+285,Thịt bồ câu ra ràng,30,0,17.5,340,Thịt và sản phẩm chế biến,Fat-rich
+286,Thịt chó sấn,30.4,0,16,338,Thịt và sản phẩm chế biến,Fat-rich
+287,Thịt chó vai,17.6,0,18,230,Thịt và sản phẩm chế biến,Fat-rich
+288,"Thịt cừu, nạc",17,0,16.4,219,Thịt và sản phẩm chế biến,Fat-rich
+289,"Thịt dê, nạc",4.3,0,20.7,122,Thịt và sản phẩm chế biến,Protein-rich
+290,Thịt gà rừng,4.8,0,24.4,141,Thịt và sản phẩm chế biến,Protein-rich
+291,Thịt gà ta,13.1,0,20.3,199,Thịt và sản phẩm chế biến,Fat-rich
+292,Thịt gà tây,15.3,0,20.1,218,Thịt và sản phẩm chế biến,Fat-rich
+293,Thịt hươu,2,0,19,94,Thịt và sản phẩm chế biến,Protein-rich
+294,Thịt lợn mỡ,37.3,0,14.5,394,Thịt và sản phẩm chế biến,Fat-rich
+295,Thịt lợn nạc,7,0,19,139,Thịt và sản phẩm chế biến,Protein-rich
+296,"Thịt lợn nửa nạc, nửa mỡ",21.5,0,16.5,260,Thịt và sản phẩm chế biến,Fat-rich
+297,Thịt ngỗng,39.2,0,14,409,Thịt và sản phẩm chế biến,Fat-rich
+298,Thịt ngựa,10,0,21.5,176,Thịt và sản phẩm chế biến,Fat-rich
+299,Thịt thỏ nhà,8,0,21.5,158,Thịt và sản phẩm chế biến,Protein-rich
+300,Thịt thỏ rừng,1,0,23.5,103,Thịt và sản phẩm chế biến,Protein-rich
+301,Thịt trâu,1.4,0.9,20.4,97,Thịt và sản phẩm chế biến,Protein-rich
+302,Thịt trâu bắp,3,0,21.9,115,Thịt và sản phẩm chế biến,Protein-rich
+303,Thịt trâu cổ,3.1,0,20.9,112,Thịt và sản phẩm chế biến,Protein-rich
+304,Thịt trâu đùi,3,0,21.2,112,Thịt và sản phẩm chế biến,Protein-rich
+305,Thịt trâu thăn,3.3,0,22.8,121,Thịt và sản phẩm chế biến,Protein-rich
+306,Thịt vịt,21.8,0,17.8,267,Thịt và sản phẩm chế biến,Fat-rich
+307,Bầu dục bò,1.8,0.3,12.5,67,Thịt và sản phẩm chế biến,Protein-rich
+308,Bầu dục lợn,3.1,0.3,13,81,Thịt và sản phẩm chế biến,Protein-rich
+309,Bì lợn,2.7,0,23.3,118,Thịt và sản phẩm chế biến,Protein-rich
+310,Chân giò lợn,18.6,0,15.7,230,Thịt và sản phẩm chế biến,Fat-rich
+311,Dạ dày bò,4.2,0,14.8,97,Thịt và sản phẩm chế biến,Protein-rich
+312,Dạ dày lợn,2.9,0,14.6,85,Thịt và sản phẩm chế biến,Protein-rich
+313,Đầu bò,12.5,0,18.1,185,Thịt và sản phẩm chế biến,Fat-rich
+314,Đầu lợn,31.3,0,13.4,335,Thịt và sản phẩm chế biến,Fat-rich
+315,Đuôi bò,6.5,0,19.7,137,Thịt và sản phẩm chế biến,Protein-rich
+316,Đuôi lợn,47.1,0,10.8,467,Thịt và sản phẩm chế biến,Fat-rich
+317,Gan bò,3.1,3,17.4,109,Thịt và sản phẩm chế biến,Protein-rich
+318,Gan gà,3.4,2,18.2,111,Thịt và sản phẩm chế biến,Protein-rich
+319,Gan lợn,3.6,2,18.8,116,Thịt và sản phẩm chế biến,Protein-rich
+320,Gan vịt,4.7,2.8,17.1,122,Thịt và sản phẩm chế biến,Protein-rich
+321,Gân chân bò,0.3,0,30.2,124,Thịt và sản phẩm chế biến,Protein-rich
+322,Lưỡi bò,12.1,0.2,13.6,164,Thịt và sản phẩm chế biến,Fat-rich
+323,Lưỡi lợn,12.8,1.4,14.2,178,Thịt và sản phẩm chế biến,Fat-rich
+324,Lòng lợn (ruột già),15.1,0.8,6.9,167,Thịt và sản phẩm chế biến,Fat-rich
+325,Lòng lợn (ruột non),1.3,0.8,7.2,44,Thịt và sản phẩm chế biến,Protein-rich
+326,Mề gà,1.3,0.6,21.3,99,Thịt và sản phẩm chế biến,Protein-rich
+327,Óc bò,9.5,0.5,9,124,Thịt và sản phẩm chế biến,Fat-rich
+328,Óc lợn,9.5,0.4,9,123,Thịt và sản phẩm chế biến,Fat-rich
+329,Phổi bò,4.7,0,15.2,103,Thịt và sản phẩm chế biến,Protein-rich
+330,Phổi lợn,3.6,0,14.8,92,Thịt và sản phẩm chế biến,Protein-rich
+331,Sườn lợn,12.8,0,17.9,187,Thịt và sản phẩm chế biến,Fat-rich
+332,Tai lợn,4.1,1.3,21,126,Thịt và sản phẩm chế biến,Protein-rich
+333,Tim bò,3,0.6,15,89,Thịt và sản phẩm chế biến,Protein-rich
+334,Tim gà,5.5,0,16,114,Thịt và sản phẩm chế biến,Protein-rich
+335,Tim lợn,3.2,1.2,15.1,94,Thịt và sản phẩm chế biến,Protein-rich
+336,Tiết bò,0.2,0.4,18,75,Thịt và sản phẩm chế biến,Protein-rich
+337,Tiết lợn luộc,0.1,0,10.7,44,Thịt và sản phẩm chế biến,Protein-rich
+338,Tiết lợn sống,0.1,0.2,5.7,25,Thịt và sản phẩm chế biến,Protein-rich
+339,Tủy xương bò,89.9,0,1.1,814,Thịt và sản phẩm chế biến,Fat-rich
+340,Tủy xương lợn,82.2,0,2.3,749,Thịt và sản phẩm chế biến,Fat-rich
+341,Ba tê,24.6,15.4,10.8,326,Thịt và sản phẩm chế biến,Fat-rich
+342,Chả lợn,50.4,5.1,10.8,517,Thịt và sản phẩm chế biến,Fat-rich
+343,Chả quế lợn,39,0,16.2,416,Thịt và sản phẩm chế biến,Fat-rich
+344,Dăm bông lợn,25,0.3,23,318,Thịt và sản phẩm chế biến,Fat-rich
+345,Dồi lợn,7.1,0,12.4,114,Thịt và sản phẩm chế biến,Fat-rich
+346,Giò bò,33.5,0,13.8,357,Thịt và sản phẩm chế biến,Fat-rich
+347,Giò lụa,5.5,0,21.5,136,Thịt và sản phẩm chế biến,Protein-rich
+348,Giò thủ lợn,54.3,0,16,553,Thịt và sản phẩm chế biến,Fat-rich
+349,Lạp xường,55,1.7,20.8,585,Thịt và sản phẩm chế biến,Fat-rich
+350,Nem chạo,6.5,6.9,16.6,153,Thịt và sản phẩm chế biến,Protein-rich
+351,Nem chua,3.7,4.3,21.7,137,Thịt và sản phẩm chế biến,Protein-rich
+352,Ruốc thịt lợn,20.3,0,46.6,369,Thịt và sản phẩm chế biến,Protein-rich
+353,Thịt bò khô,1.6,5.2,51,239,Thịt và sản phẩm chế biến,Protein-rich
+354,Thịt trâu khô,2.7,0,50.4,226,Thịt và sản phẩm chế biến,Protein-rich
+355,Xúc xích,47.4,0,27.2,535,Thịt và sản phẩm chế biến,Fat-rich
+356,Bột cóc,13.4,0,55.4,342,Thịt và sản phẩm chế biến,Protein-rich
+357,Châu chấu,3.6,0,24.3,130,Thịt và sản phẩm chế biến,Protein-rich
+358,Ếch (thịt đùi),1.1,0,20,90,Thịt và sản phẩm chế biến,Protein-rich
+359,Nhộng,6.5,0,13,111,Thịt và sản phẩm chế biến,Fat-rich
+360,Lòng gà (cả bộ),4.5,1.8,17.9,119,Thịt và sản phẩm chế biến,Protein-rich
+361,Cá bống,0.8,0,15.8,70,Thủy sản và sản phẩm chế biến,Protein-rich
+362,Cá chày,3.6,0,20.1,113,Thủy sản và sản phẩm chế biến,Protein-rich
+363,Cá chép,3.6,0,16,96,Thủy sản và sản phẩm chế biến,Protein-rich
+364,Cá dưa,5,0,17.6,115,Thủy sản và sản phẩm chế biến,Protein-rich
+365,Cá dầu,2.3,0,18.9,96,Thủy sản và sản phẩm chế biến,Protein-rich
+366,Cá diếc,1.8,0,17.7,87,Thủy sản và sản phẩm chế biến,Protein-rich
+367,Cá đao,2.3,0,18.3,94,Thủy sản và sản phẩm chế biến,Protein-rich
+368,Cá đé,0.9,0,18.7,83,Thủy sản và sản phẩm chế biến,Protein-rich
+369,Cá đối,3.3,0,19.5,108,Thủy sản và sản phẩm chế biến,Protein-rich
+370,Cá đồng tiền,2,0,20.1,98,Thủy sản và sản phẩm chế biến,Protein-rich
+371,Cá hồi,5.3,0,22,136,Thủy sản và sản phẩm chế biến,Protein-rich
+372,"Cá khô (chim, thu, nụ, đé)",3.9,0,43.3,208,Thủy sản và sản phẩm chế biến,Protein-rich
+373,Cá lác,0.5,0,16.7,71,Thủy sản và sản phẩm chế biến,Protein-rich
+374,Cá mè,9.1,0,15.4,144,Thủy sản và sản phẩm chế biến,Fat-rich
+375,Cá mòi,6,0,17.5,124,Thủy sản và sản phẩm chế biến,Protein-rich
+376,Cá mỡ,9.3,0,16.8,151,Thủy sản và sản phẩm chế biến,Fat-rich
+377,Cá mối,3.1,0,22.1,116,Thủy sản và sản phẩm chế biến,Protein-rich
+378,Cá nạc,1.1,0,17.5,80,Thủy sản và sản phẩm chế biến,Protein-rich
+379,Cá ngừ,0.3,0,21,87,Thủy sản và sản phẩm chế biến,Protein-rich
+380,Cá nục,3.3,0,20.2,111,Thủy sản và sản phẩm chế biến,Protein-rich
+381,Cá phèn,4.5,0,15.9,104,Thủy sản và sản phẩm chế biến,Protein-rich
+382,Cá quả,2.7,0,18.2,97,Thủy sản và sản phẩm chế biến,Protein-rich
+383,Cá rô đồng,5.5,0,19.1,126,Thủy sản và sản phẩm chế biến,Protein-rich
+384,Cá rô phi,2.3,0,19.7,100,Thủy sản và sản phẩm chế biến,Protein-rich
+385,Cá thờn bơn (cá bơn),0.4,0,17.4,73,Thủy sản và sản phẩm chế biến,Protein-rich
+386,Cá thu,10.3,0,18.2,166,Thủy sản và sản phẩm chế biến,Fat-rich
+387,Cá thu đao,8.4,0,20,156,Thủy sản và sản phẩm chế biến,Protein-rich
+388,Cá trạch (cá chạch),3.2,0,20.4,110,Thủy sản và sản phẩm chế biến,Protein-rich
+389,Cá trắm cỏ,2.6,0,17,91,Thủy sản và sản phẩm chế biến,Protein-rich
+390,Cá trê,11.9,0,16.5,173,Thủy sản và sản phẩm chế biến,Fat-rich
+391,Cá trích,10.6,0,17.7,166,Thủy sản và sản phẩm chế biến,Fat-rich
+392,Cá trôi,5.7,0,18.8,127,Thủy sản và sản phẩm chế biến,Protein-rich
+393,Cua bể,0.6,7,17.5,103,Thủy sản và sản phẩm chế biến,Protein-rich
+394,Cua đồng,3.3,2,12.3,87,Thủy sản và sản phẩm chế biến,Protein-rich
+395,Ghẹ,0.7,0,11.9,54,Thủy sản và sản phẩm chế biến,Protein-rich
+396,Hải sâm,0.3,0.2,21.5,90,Thủy sản và sản phẩm chế biến,Protein-rich
+397,Hến,0.7,5.1,4.5,45,Thủy sản và sản phẩm chế biến,Carb-rich
+398,Lươn,11.7,0.2,18.4,180,Thủy sản và sản phẩm chế biến,Fat-rich
+399,Mực khô,4.5,2.5,60.1,291,Thủy sản và sản phẩm chế biến,Protein-rich
+400,Mực tươi,0.9,0,16.3,73,Thủy sản và sản phẩm chế biến,Protein-rich
+401,Ốc bươu,0.7,8.3,11.1,84,Thủy sản và sản phẩm chế biến,Protein-rich
+402,Ốc đá,0.3,3.9,11.2,63,Thủy sản và sản phẩm chế biến,Protein-rich
+403,Ốc nhồi,0.7,7.6,11.9,84,Thủy sản và sản phẩm chế biến,Protein-rich
+404,Ốc vặn,0.7,4.3,12.2,72,Thủy sản và sản phẩm chế biến,Protein-rich
+405,"Rạm (muối, đồ)",2.9,0,14.2,83,Thủy sản và sản phẩm chế biến,Protein-rich
+406,Rạm tươi,2.8,0,12.9,77,Thủy sản và sản phẩm chế biến,Protein-rich
+407,Rươi,4.4,0,12.4,89,Thủy sản và sản phẩm chế biến,Protein-rich
+408,Sò,2.3,4.9,9.5,78,Thủy sản và sản phẩm chế biến,Protein-rich
+409,Tép gạo,1.2,0,11.7,58,Thủy sản và sản phẩm chế biến,Protein-rich
+410,Tép khô,3,0.7,59.8,269,Thủy sản và sản phẩm chế biến,Protein-rich
+411,Tôm biển,0.9,0.9,17.6,82,Thủy sản và sản phẩm chế biến,Protein-rich
+412,Tôm đồng,1.8,0,18.4,90,Thủy sản và sản phẩm chế biến,Protein-rich
+413,Tôm khô,3.8,2.5,75.6,347,Thủy sản và sản phẩm chế biến,Protein-rich
+414,Trai,1.1,2.5,4.6,38,Thủy sản và sản phẩm chế biến,Protein-rich
+415,Bánh phồng tôm rán,59.2,34.1,1.6,676,Thủy sản và sản phẩm chế biến,Fat-rich
+416,Bánh phồng tôm sống,7.4,75.3,3.4,381,Thủy sản và sản phẩm chế biến,Carb-rich
+417,Bột cá,2.9,3,71.2,323,Thủy sản và sản phẩm chế biến,Protein-rich
+418,Ruốc cá quả,4.1,3,65.7,312,Thủy sản và sản phẩm chế biến,Protein-rich
+419,Ruốc tôm,3.1,3.7,65.5,305,Thủy sản và sản phẩm chế biến,Protein-rich
+420,Trứng gà,11.6,0.5,14.8,166,Trứng và sản phẩm chế biến,Fat-rich
+421,Lòng đỏ trứng gà,29.8,1,13.6,327,Trứng và sản phẩm chế biến,Fat-rich
+422,Lòng trắng trứng gà,0.1,1,10.3,46,Trứng và sản phẩm chế biến,Protein-rich
+423,Trứng vịt,14.2,1,13,184,Trứng và sản phẩm chế biến,Fat-rich
+424,Lòng đỏ trứng vịt,32.3,4.8,13.6,364,Trứng và sản phẩm chế biến,Fat-rich
+425,Lòng trắng trứng vịt,0.1,0.8,10.7,47,Trứng và sản phẩm chế biến,Protein-rich
+426,Trứng chim cút,11.1,0.4,13.1,154,Trứng và sản phẩm chế biến,Fat-rich
+427,Trứng cá,9.9,0,20.5,171,Trứng và sản phẩm chế biến,Fat-rich
+428,Trứng cá muối,17.9,3.5,24.6,274,Trứng và sản phẩm chế biến,Fat-rich
+429,Trứng vịt lộn,12.4,4,13.6,182,Trứng và sản phẩm chế biến,Fat-rich
+430,Bột trứng,42.2,1.8,44,563,Trứng và sản phẩm chế biến,Fat-rich
+431,Sữa bò tươi,4.4,4.8,3.9,74,Sữa và sản phẩm chế biến,Fat-rich
+432,Sữa dê tươi,4.1,4.5,3.5,69,Sữa và sản phẩm chế biến,Fat-rich
+433,Sữa mẹ (sữa người),3,7,1.5,61,Sữa và sản phẩm chế biến,Carb-rich
+434,Sữa chua (từ sữa bò),3.7,3.6,3.3,61,Sữa và sản phẩm chế biến,Fat-rich
+435,Sữa chua vớt béo,0,22.3,3.5,103,Sữa và sản phẩm chế biến,Carb-rich
+436,Sữa bột toàn phần,26,38,27,494,Sữa và sản phẩm chế biến,Fat-rich
+437,Sữa bột tách béo,1,52,35,357,Sữa và sản phẩm chế biến,Carb-rich
+438,Sữa đặc có đường Việt Nam,8.8,56,8.1,336,Sữa và sản phẩm chế biến,Carb-rich
+439,Pho mát,30.9,0,25.5,380,Sữa và sản phẩm chế biến,Fat-rich
+440,Chuối nước đường,0,13.9,0.5,58,Đồ hộp,Carb-rich
+441,Dưa chuột hộp,0.2,1.2,0.3,8,Đồ hộp,Carb-rich
+442,Dứa hộp,0.1,12.7,0.4,53,Đồ hộp,Carb-rich
+443,Lạc chao dầu,59.5,10.3,25.7,680,Đồ hộp,Fat-rich
+444,Mắc coọc nước đường,0,13.7,0.2,56,Đồ hộp,Carb-rich
+445,Mận nước đường,0.1,15.4,0.4,64,Đồ hộp,Carb-rich
+446,Mứt bí ngô,0,49.1,0.5,198,Đồ hộp,Carb-rich
+447,Mứt cam có vỏ,0,54.2,0.4,218,Đồ hộp,Carb-rich
+448,Mứt chuối,0,53.9,0.7,218,Đồ hộp,Carb-rich
+449,Mứt dứa,0,51.5,0.5,208,Đồ hộp,Carb-rich
+450,Mứt đu đủ,0,44.1,0.4,178,Đồ hộp,Carb-rich
+451,Nhãn nước đường,0,15,0.5,62,Đồ hộp,Carb-rich
+452,Nước dứa hộp,0.1,12.6,0.4,53,Đồ hộp,Carb-rich
+453,Vải nước đường,0,14.7,0.4,60,Đồ hộp,Carb-rich
+454,Cá thu hộp,12,0,24.8,207,Đồ hộp,Fat-rich
+455,Cá trích hộp,14.4,3.5,22.3,233,Đồ hộp,Fat-rich
+456,Thịt bò hộp,20.6,0,16.4,251,Đồ hộp,Fat-rich
+457,Thịt gà hộp,22.8,0,17,273,Đồ hộp,Fat-rich
+458,Thịt lợn hộp,29.3,2.7,17.3,344,Đồ hộp,Fat-rich
+459,"Thịt lợn, thịt bò xay hộp",20,0,16,244,Đồ hộp,Fat-rich
+460,Thịt vịt hầm,16.2,0,19.6,224,Đồ hộp,Fat-rich
+461,Bánh bích cốt,1.3,71.3,12.3,346,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+462,Bánh bích quy,4.5,75.1,8.8,376,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+463,Bánh chả,6.6,80.5,3.4,395,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+464,Bánh con cá,2.2,79.6,7.5,368,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+465,Bánh đậu xanh,11.5,62.4,15.6,416,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+466,Bánh kem xốp,24,60.7,8.3,492,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+467,Bánh khảo chay,0.3,90.2,3.2,376,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+468,Bánh quế,10.7,76.4,8.3,435,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+469,Bánh sô cô la,17.6,68.8,3.9,449,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+470,Bánh thỏi sô cô la,30.4,62.5,4.9,543,"Đồ ngọt (đường, bánh, mứt, kẹo)",Fat-rich
+471,Bánh trứng nhện,3.7,74.2,9.6,369,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+472,Bột ca cao,13.7,53,19.6,414,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+473,Đường cát,0,97.4,0,390,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+474,Đường kính,0,99.3,0,397,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+475,Kẹo bơ cứng,17.2,71.1,2.1,448,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+476,Kẹo cà phê,1.3,91.5,0,378,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+477,Kẹo cam chanh,0.5,93.1,0,377,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+478,Kẹo dừa mềm,12.2,75.6,0.6,415,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+479,Kẹo dứa mềm,12.2,75.6,0.6,415,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+480,Kẹo lạc,16.5,64.8,10.3,449,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+481,Kẹo Pastille (kẹo ngậm bạc hà),0,83.8,5.2,356,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+482,Kẹo sô cô la,4.6,85.1,1.6,388,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+483,Kẹo sữa,5.2,83,2.9,390,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+484,Kẹo vừng viên,6.9,85.9,2.8,417,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+485,Mạch nha,0,82.5,0.2,331,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+486,Mật ong,0,81.3,0.4,327,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+487,Mứt lạc,8.6,82.9,5.4,431,"Đồ ngọt (đường, bánh, mứt, kẹo)",Carb-rich
+488,Cary bột,7.3,46,8.2,283,"Gia vị, nước chấm",Carb-rich
+489,Gừng khô (bột),5.9,58.3,9.1,323,"Gia vị, nước chấm",Carb-rich
+490,Gừng tươi,0.8,5.1,0.4,29,"Gia vị, nước chấm",Carb-rich
+491,Hạt tiêu,7.4,34.1,7,231,"Gia vị, nước chấm",Carb-rich
+492,Muối,0,0,0,0,"Gia vị, nước chấm",Không xác định
+493,"Nghệ khô, bột",9.9,43.8,7.8,295,"Gia vị, nước chấm",Carb-rich
+494,Nghệ tươi,0.3,4.4,1.1,25,"Gia vị, nước chấm",Carb-rich
+495,Ớt khô bột,4.2,31.8,15.6,227,"Gia vị, nước chấm",Carb-rich
+496,Riềng,0,2.5,0.3,26,"Gia vị, nước chấm",Carb-rich
+497,Magi,0.1,5.6,10.5,65,"Gia vị, nước chấm",Protein-rich
+498,Mắm tôm đặc,1.5,0,14.8,73,"Gia vị, nước chấm",Protein-rich
+499,Mắm tôm loãng,0.8,2.1,7,44,"Gia vị, nước chấm",Protein-rich
+500,Mắm tép chua,1.2,5.5,8.7,68,"Gia vị, nước chấm",Protein-rich
+501,Nước mắm cá (loại đặc biệt),0,0,15,60,"Gia vị, nước chấm",Protein-rich
+502,Nước mắm cá loại I,0,0,7.1,28,"Gia vị, nước chấm",Protein-rich
+503,Nước mắm loại II,0,0,5.2,21,"Gia vị, nước chấm",Protein-rich
+504,Nước mắm cá,0.01,3.6,5.1,35,"Gia vị, nước chấm",Protein-rich
+505,Nước mắm cô,0,0,32.8,131,"Gia vị, nước chấm",Protein-rich
+506,Tương ngô,0.1,14.5,3.9,75,"Gia vị, nước chấm",Carb-rich
+507,Tương nếp,0.7,15.7,4.3,86,"Gia vị, nước chấm",Carb-rich
+508,Tương ớt,0.5,7.6,0.5,37,"Gia vị, nước chấm",Carb-rich
+509,Xì dầu,0.04,6.8,6.3,53,"Gia vị, nước chấm",Carb-rich
+510,Sốt mayonnaise,77.8,0.1,0,701,"Gia vị, nước chấm",Fat-rich
+511,"Bia (cồn: 4,5 g)",0,2.3,0.5,11,"Nước giải khát, bia, rượu",Carb-rich
+512,Cô nhắc (cồn 32 g),0,0,0,0,"Nước giải khát, bia, rượu",Không xác định
+513,Cốc tai (cồn 13 g),0,15.7,0,63,"Nước giải khát, bia, rượu",Carb-rich
+514,Coca cola,0,10.4,0,42,"Nước giải khát, bia, rượu",Carb-rich
+515,Nước cam tươi,0.2,4.5,0.7,23,"Nước giải khát, bia, rượu",Carb-rich
+516,Nước dừa non tươi,0,4.8,0.4,21,"Nước giải khát, bia, rượu",Carb-rich
+517,Nước ép cà chua,0.6,2.6,0.8,19,"Nước giải khát, bia, rượu",Carb-rich
+518,Nước khoáng,0,0,0,0,"Nước giải khát, bia, rượu",Không xác định
+519,Nước quít tươi,0.2,5.1,0.4,24,"Nước giải khát, bia, rượu",Carb-rich
+520,"Rượu cam, chanh (cồn 24,2 g)",0,0,0,0,"Nước giải khát, bia, rượu",Không xác định
+521,Rượu nếp (80g/ 24 ml) (cồn 5 g),0,37.7,4,167,"Nước giải khát, bia, rượu",Carb-rich
+522,Rượu trắng (cồn 39 g),0,0,0,273,"Nước giải khát, bia, rượu",Không xác định
+523,"Rượu vang đỏ (cồn 9,5 g)",0,2,0.2,9,"Nước giải khát, bia, rượu",Carb-rich
+524,"Rượu vang trắng (cồn 9,5 g)",0,0.2,0.1,1,"Nước giải khát, bia, rượu",Carb-rich
+525,Rượu vang trắng ngọt (cồn 10.2 g),0,5.9,0.2,24,"Nước giải khát, bia, rượu",Carb-rich
+526,"Rượu Whisky (cồn 35,2 g)",0,0,0,0,"Nước giải khát, bia, rượu",Không xác định
