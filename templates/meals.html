@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chọn Thực Đơn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 min-h-screen p-6 font-sans antialiased text-gray-800">
+    <div class="max-w-5xl mx-auto">
+      <!-- Header - Mục tiêu dinh dưỡng cho 1 bữa -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8 text-center">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-2">NHU CẦU DINH DƯỠNG CHO MỖI BỮA ĂN</h2>
+
+        <p class="text-gray-500 font-medium mb-4">
+          Mục tiêu dinh dưỡng được tính từ nhu cầu trong ngày và chia cho 3 bữa chính.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4">
+          <span class="bg-gray-800 text-white px-4 py-2 rounded-lg font-bold text-lg shadow">
+            🔥 {{ target.calo }} kcal
+          </span>
+
+          <span class="bg-red-100 text-red-700 px-4 py-2 rounded-lg font-bold text-lg border border-red-200">
+            🥩 Pro: {{ target.pro }}g
+          </span>
+
+          <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-lg font-bold text-lg border border-blue-200">
+            🍚 Carb: {{ target.carb }}g
+          </span>
+
+          <span class="bg-yellow-100 text-yellow-700 px-4 py-2 rounded-lg font-bold text-lg border border-yellow-200">
+            🥑 Fat: {{ target.fat }}g
+          </span>
+        </div>
+
+        <div class="mt-4">
+          <a href="/" class="text-sm font-semibold text-green-600 hover:text-green-800 underline transition">
+            &larr; Cập nhật lại chỉ số cơ thể
+          </a>
+        </div>
+      </div>
+
+      <!-- Form gửi lựa chọn của người dùng -->
+      <form action="/finalize" method="POST">
+        <!--
+                Chuyển mục tiêu dinh dưỡng của cả ngày sang /finalize.
+                Target hiện tại là mục tiêu cho 1 bữa nên nhân 3.
+            -->
+        <input type="hidden" name="day_target_calo" value="{{ target.calo * 3 }}" />
+
+        <input type="hidden" name="day_target_pro" value="{{ target.pro * 3 }}" />
+
+        <input type="hidden" name="day_target_carb" value="{{ target.carb * 3 }}" />
+
+        <input type="hidden" name="day_target_fat" value="{{ target.fat * 3 }}" />
+
+        <!-- Tiêu đề -->
+        <h3 class="text-xl font-bold text-gray-700 mb-4 border-l-4 border-green-500 pl-3">
+          Top 5 Lựa Chọn Phù Hợp
+        </h3>
+
+        <!-- Danh sách 5 lựa chọn -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {% for menu in menus %}
+
+          <div
+            class="bg-white rounded-xl shadow-sm hover:shadow-md transition duration-200 border border-gray-200 overflow-hidden relative">
+            <!-- Huy hiệu độ khớp -->
+            <div class="absolute top-0 right-0 bg-yellow-400 text-yellow-900 font-bold px-3 py-1 rounded-bl-lg text-sm">
+              Độ khớp: {{ menu.Match_Percent }}%
+            </div>
+
+            <!-- Tiêu đề -->
+            <div class="bg-green-50 px-5 py-3 border-b border-green-100">
+              <span class="font-bold text-green-800"> Lựa chọn #{{ loop.index }} </span>
+            </div>
+
+            <!-- Danh sách thực phẩm -->
+            <div class="p-5 space-y-3">
+              <div class="flex items-start">
+                <span class="text-xl mr-3">🍚</span>
+
+                <div>
+                  <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Tinh bột</p>
+
+                  <p class="font-medium text-gray-800">{{ menu.Tinh_Bot }}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <span class="text-xl mr-3">🥩</span>
+
+                <div>
+                  <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Chất đạm</p>
+
+                  <p class="font-medium text-gray-800">{{ menu.Dam }}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <span class="text-xl mr-3">🥦</span>
+
+                <div>
+                  <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Rau xanh</p>
+
+                  <p class="font-medium text-gray-800">{{ menu.Rau }}</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thông tin dinh dưỡng -->
+            <div class="bg-gray-50 px-5 py-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-2">
+                <!-- Calories -->
+                <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs font-bold border border-gray-200">
+                  ~{{ menu.Total_Calories | round(0) }} kcal
+                </span>
+
+                <!-- Protein -->
+                <span class="bg-red-50 text-red-600 px-2 py-1 rounded text-xs font-bold border border-red-100">
+                  Pro: {{ menu.Total_Protein | round(1) }}g
+                </span>
+
+                <!-- Carb -->
+                <span class="bg-blue-50 text-blue-600 px-2 py-1 rounded text-xs font-bold border border-blue-100">
+                  Carb: {{ menu.Total_Carbs | round(1) }}g
+                </span>
+
+                <!-- Fat -->
+                <span class="bg-yellow-50 text-yellow-600 px-2 py-1 rounded text-xs font-bold border border-yellow-100">
+                  Fat: {{ menu.Total_Fat | round(1) }}g
+                </span>
+              </div>
+
+              <!-- Chọn bữa ăn -->
+              <div class="mt-4">
+                <label class="block text-sm font-semibold text-gray-700 mb-1"> Thêm vào bữa ăn: </label>
+
+                <select
+                  name="meal_choice_{{ loop.index0 }}"
+                  class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                  <option value="">-- Không chọn --</option>
+
+                  <option value="Sáng">🌅 Bữa Sáng</option>
+
+                  <option value="Trưa">☀️ Bữa Trưa</option>
+
+                  <option value="Tối">🌙 Bữa Tối</option>
+                </select>
+              </div>
+
+              <!-- Lưu dữ liệu thực đơn -->
+              <input type="hidden" name="menu_data_{{ loop.index0 }}" value="{{ menu | tojson | forceescape }}" />
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+
+        <!-- Nút xác nhận -->
+        <div class="mt-8 text-center bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+          <p class="text-sm text-gray-500 mb-4">
+            Hãy lựa chọn và phân bổ các phương án vào 3 bữa ăn trong ngày. Hệ thống sẽ tổng hợp các lựa chọn đã chọn thành thực đơn dinh dưỡng cho một ngày.
+          </p>
+
+          <button
+            type="submit"
+            class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md transition">
+            Xác Nhận Thực Đơn
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
