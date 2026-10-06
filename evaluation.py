@@ -1,10 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from knn_model import get_recommendations
-
+import random
 
 def evaluate_recommendations(target_dict, recommended_menus):
-    # [Giữ nguyên ruột hàm evaluate_recommendations của bạn ở đây]
     target = np.array(
         [
             target_dict["calo"],
@@ -32,6 +31,71 @@ def evaluate_recommendations(target_dict, recommended_menus):
         )
 
     return mape
+
+def evaluate_large_scale(num_samples=100):
+    print(f"\nĐANG CHẠY ĐÁNH GIÁ TRÊN {num_samples} NGƯỜI DÙNG NGẪU NHIÊN...")
+    
+    genders = ["nam", "nu"]
+    activity_levels = ["it_van_dong", "nhe", "vua", "nang", "rat_nang"]
+    goals = ["giam_mo", "giu_can", "tang_co"]
+    
+    # Lưu trữ kết quả của tất cả các vòng lặp
+    all_mape = []
+    all_mae = []
+    all_rmse = []
+    valid_samples = 0
+    
+    for i in range(num_samples):
+        # Sinh các chỉ số cơ thể ngẫu nhiên
+        age = random.randint(18, 50)
+        weight_kg = random.uniform(45.0, 95.0)
+        height_cm = random.randint(150, 185)
+        gender = random.choice(genders)
+        activity_level = random.choice(activity_levels)
+        goal = random.choice(goals)
+        
+        try:
+            # Gọi thuật toán với dữ liệu ngẫu nhiên
+            data = get_recommendations(
+                age=age, weight_kg=weight_kg, height_cm=height_cm,
+                gender=gender, activity_level=activity_level, goal=goal
+            )
+            
+            target = np.array([
+                data["target"]["calo"], data["target"]["pro"],
+                data["target"]["carb"], data["target"]["fat"]
+            ])
+            preds = np.array([
+                [m["Total_Calories"], m["Total_Protein"], m["Total_Carbs"], m["Total_Fat"]] 
+                for m in data["menus"]
+            ])
+            
+            # Tính sai số cho cá nhân này
+            mae = np.mean(np.abs(preds - target), axis=0)
+            rmse = np.sqrt(np.mean((preds - target) ** 2, axis=0))
+            mape = np.mean(np.abs((preds - target) / target), axis=0) * 100
+            
+            all_mae.append(mae)
+            all_rmse.append(rmse)
+            all_mape.append(mape)
+            valid_samples += 1
+            
+        except Exception as e:
+            # Bỏ qua nếu data rỗng hoặc không tìm được thực đơn cho ca quá ngoại lệ
+            continue
+            
+    # Tính trung bình sai số của toàn bộ tập mẫu
+    mean_mae = np.mean(all_mae, axis=0)
+    mean_rmse = np.mean(all_rmse, axis=0)
+    mean_mape = np.mean(all_mape, axis=0)
+    
+    print("\n" + "=" * 50)
+    print(f"KẾT QUẢ ĐÁNH GIÁ TRUNG BÌNH ({valid_samples}/{num_samples} mẫu thành công):")
+    labels = ["Calories", "Protein", "Carbs", "Fat"]
+    for i, label in enumerate(labels):
+        print(f"[{label}] MAE: {mean_mae[i]:.1f} | RMSE: {mean_rmse[i]:.1f} | MAPE: {mean_mape[i]:.2f}%")
+        
+    return mean_mape
 
 
 if __name__ == "__main__":
@@ -93,5 +157,6 @@ if __name__ == "__main__":
     ax.grid(axis="y", linestyle="--", alpha=0.7)
 
     plt.tight_layout()
-    plt.savefig("evaluation_knn.png", dpi=300)
+    plt.savefig("static/evaluation_knn.png", dpi=300)
     plt.show()
+    overall_mape = evaluate_large_scale(num_samples=100)
