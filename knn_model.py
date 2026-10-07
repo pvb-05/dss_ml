@@ -3,6 +3,7 @@ import pandas as pd
 import sqlite3
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
+from database import MENU_DATABASE
 
 
 def get_recommendations(
@@ -66,7 +67,7 @@ def get_recommendations(
         base_query += " AND Dam NOT LIKE '%lạc%' AND Rau NOT LIKE '%lạc%'"
 
     # 2. SINH DATASET & LOAD DATA
-    conn = sqlite3.connect("data/fitness_menus.db")
+    conn = sqlite3.connect(MENU_DATABASE)
     df_menus = pd.read_sql_query(base_query, conn)
     conn.close()
 
