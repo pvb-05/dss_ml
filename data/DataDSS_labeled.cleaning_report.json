@@ -1,0 +1,541 @@
+{
+  "input": "C:\\DSS\\dss_ml-main\\dss_ml-main\\data\\VTN_FCT_2007.pdf",
+  "rows": 526,
+  "missing_policy": "zero",
+  "note": "PDF '-' is unavailable. Zero is an explicit compatibility imputation.",
+  "imputations": [
+    {
+      "page": 33,
+      "STT": 20,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 41,
+      "STT": 26,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 45,
+      "STT": 30,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 50,
+      "STT": 35,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 54,
+      "STT": 39,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 56,
+      "STT": 41,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 59,
+      "STT": 44,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 64,
+      "STT": 49,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 104,
+      "STT": 84,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 108,
+      "STT": 88,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 111,
+      "STT": 91,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 115,
+      "STT": 95,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 119,
+      "STT": 99,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 122,
+      "STT": 102,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 125,
+      "STT": 105,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 126,
+      "STT": 106,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 127,
+      "STT": 107,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 128,
+      "STT": 108,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 130,
+      "STT": 110,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 131,
+      "STT": 111,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 135,
+      "STT": 115,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 140,
+      "STT": 120,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 145,
+      "STT": 125,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 146,
+      "STT": 126,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 148,
+      "STT": 128,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 149,
+      "STT": 129,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 150,
+      "STT": 130,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 151,
+      "STT": 131,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 152,
+      "STT": 132,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 162,
+      "STT": 142,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 167,
+      "STT": 147,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 168,
+      "STT": 148,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 173,
+      "STT": 153,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 179,
+      "STT": 159,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 180,
+      "STT": 160,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 181,
+      "STT": 161,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 182,
+      "STT": 162,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 187,
+      "STT": 167,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 188,
+      "STT": 168,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 190,
+      "STT": 170,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 191,
+      "STT": 171,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 193,
+      "STT": 173,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 194,
+      "STT": 174,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 195,
+      "STT": 175,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 196,
+      "STT": 176,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 197,
+      "STT": 177,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 204,
+      "STT": 184,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 206,
+      "STT": 186,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 209,
+      "STT": 189,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 210,
+      "STT": 190,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 211,
+      "STT": 191,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 212,
+      "STT": 192,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 213,
+      "STT": 193,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 214,
+      "STT": 194,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 215,
+      "STT": 195,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 216,
+      "STT": 196,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 217,
+      "STT": 197,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 218,
+      "STT": 198,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 219,
+      "STT": 199,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 220,
+      "STT": 200,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 238,
+      "STT": 216,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 244,
+      "STT": 222,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 249,
+      "STT": 227,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 251,
+      "STT": 229,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 256,
+      "STT": 234,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 259,
+      "STT": 237,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 260,
+      "STT": 238,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 268,
+      "STT": 246,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 269,
+      "STT": 247,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 273,
+      "STT": 251,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 274,
+      "STT": 252,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 276,
+      "STT": 254,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 279,
+      "STT": 257,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 284,
+      "STT": 262,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 534,
+      "STT": 496,
+      "column": "Fat (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    },
+    {
+      "page": 562,
+      "STT": 522,
+      "column": "Protein (g)",
+      "source": "-",
+      "action": "imputed_zero"
+    }
+  ],
+  "classification": "Largest energy contribution: protein*4, carbs*4, fat*9; protein wins ties."
+}

@@ -1,12 +1,16 @@
 import pandas as pd
 import random
 import sqlite3
-import os
+from pathlib import Path
+
+DATA_DIR = Path(__file__).resolve().parent / "data"
+CLEANED_CSV = DATA_DIR / "DataDSS_labeled.csv"
+MENU_DATABASE = DATA_DIR / "fitness_menus.db"
 
 
-def create_menu_database(db_name="fitness_menus.db", num_menus=20000):
+def create_menu_database(db_name=MENU_DATABASE, num_menus=20000):
     print("1. Đang đọc dữ liệu nguyên liệu...")
-    df = pd.read_csv("data/DataDSS_labeled.csv")
+    df = pd.read_csv(CLEANED_CSV)
     df = df[df["Nhóm Đa lượng chính"] != "Không xác định"]
 
     ro_tinh_bot = df[
