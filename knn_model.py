@@ -16,7 +16,7 @@ def validate_user_input(
     # 1. Ràng buộc tuổi: số tự nhiên lớn hơn 0, nằm trong khoảng hợp lý (10 - 120 tuổi)
     if not isinstance(age, int) or age <= 0:
         raise ValueError("Độ tuổi phải là số tự nhiên lớn hơn 0.")
-    if age < 10 or age > 120:
+    if age < 16 or age > 120:
         raise ValueError(
             f"Độ tuổi không hợp lý ({age} tuổi). Vui lòng nhập từ 10 đến 120 tuổi."
         )
@@ -24,17 +24,17 @@ def validate_user_input(
     # 2. Ràng buộc chiều cao: số dương, không âm, giới hạn hợp lý (50 - 250 cm)
     if not isinstance(height_cm, (int, float)) or height_cm <= 0:
         raise ValueError("Chiều cao phải là số dương lớn hơn 0.")
-    if height_cm < 50 or height_cm > 250:
+    if height_cm < 100 or height_cm > 250:
         raise ValueError(
-            f"Chiều cao không hợp lý ({height_cm} cm). Vui lòng nhập từ 50 đến 250 cm."
+            f"Chiều cao không hợp lý ({height_cm} cm). Vui lòng nhập từ 100 đến 250 cm."
         )
 
     # 3. Ràng buộc cân nặng: số dương, không âm, giới hạn hợp lý (20 - 300 kg)
     if not isinstance(weight_kg, (int, float)) or weight_kg <= 0:
         raise ValueError("Cân nặng phải là số dương lớn hơn 0.")
-    if weight_kg < 20 or weight_kg > 300:
+    if weight_kg < 40 or weight_kg > 300:
         raise ValueError(
-            f"Cân nặng không hợp lý ({weight_kg} kg). Vui lòng nhập từ 20 đến 300 kg."
+            f"Cân nặng không hợp lý ({weight_kg} kg). Vui lòng nhập từ 40 đến 300 kg."
         )
 
     # 4. Ràng buộc giới tính
