@@ -5,6 +5,53 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 
 
+def validate_user_input(
+    age,
+    weight_kg,
+    height_cm,
+    gender=None,
+    activity_level=None,
+    goal=None,
+):
+    # 1. Ràng buộc tuổi: số tự nhiên lớn hơn 0, nằm trong khoảng hợp lý (10 - 120 tuổi)
+    if not isinstance(age, int) or age <= 0:
+        raise ValueError("Độ tuổi phải là số tự nhiên lớn hơn 0.")
+    if age < 10 or age > 120:
+        raise ValueError(
+            f"Độ tuổi không hợp lý ({age} tuổi). Vui lòng nhập từ 10 đến 120 tuổi."
+        )
+
+    # 2. Ràng buộc chiều cao: số dương, không âm, giới hạn hợp lý (50 - 250 cm)
+    if not isinstance(height_cm, (int, float)) or height_cm <= 0:
+        raise ValueError("Chiều cao phải là số dương lớn hơn 0.")
+    if height_cm < 50 or height_cm > 250:
+        raise ValueError(
+            f"Chiều cao không hợp lý ({height_cm} cm). Vui lòng nhập từ 50 đến 250 cm."
+        )
+
+    # 3. Ràng buộc cân nặng: số dương, không âm, giới hạn hợp lý (20 - 300 kg)
+    if not isinstance(weight_kg, (int, float)) or weight_kg <= 0:
+        raise ValueError("Cân nặng phải là số dương lớn hơn 0.")
+    if weight_kg < 20 or weight_kg > 300:
+        raise ValueError(
+            f"Cân nặng không hợp lý ({weight_kg} kg). Vui lòng nhập từ 20 đến 300 kg."
+        )
+
+    # 4. Ràng buộc giới tính
+    if gender and str(gender).lower() not in ["nam", "nu"]:
+        raise ValueError("Giới tính không hợp lệ (chỉ chấp nhận 'nam' hoặc 'nu').")
+
+    # 5. Ràng buộc mức độ vận động
+    valid_activities = ["it_van_dong", "nhe", "vua", "nhieu", "nang", "rat_nang"]
+    if activity_level and activity_level not in valid_activities:
+        raise ValueError("Mức độ vận động không hợp lệ.")
+
+    # 6. Ràng buộc mục tiêu
+    valid_goals = ["tang_co", "giam_mo", "giu_can"]
+    if goal and goal not in valid_goals:
+        raise ValueError("Mục tiêu tập luyện không hợp lệ.")
+
+
 def get_recommendations(
     age,
     weight_kg,
@@ -15,6 +62,16 @@ def get_recommendations(
     allergies=[],
     n_suggestions=5,
 ):
+    # 0. KIỂM TRA RÀNG BUỘC ĐẦU VÀO
+    validate_user_input(
+        age=age,
+        weight_kg=weight_kg,
+        height_cm=height_cm,
+        gender=gender,
+        activity_level=activity_level,
+        goal=goal,
+    )
+
     # 1. TÍNH TOÁN USER TARGET
     if gender.lower() == "nam":
         bmr = (10 * weight_kg) + (6.25 * height_cm) - (5 * age) + 5

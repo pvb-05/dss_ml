@@ -16,26 +16,52 @@ def index():
 def predict():
     try:
         # Lấy dữ liệu từ Form HTML
-        age = int(request.form["age"])
-        weight = float(request.form["weight"])
-        height = float(request.form["height"])
-        gender = request.form["gender"]
-        activity = request.form["activity"]
-        goal = request.form["goal"]
-
-        # Danh sách dị ứng
+        raw_age = request.form.get("age", "").strip()
+        raw_weight = request.form.get("weight", "").strip()
+        raw_height = request.form.get("height", "").strip()
+        gender = request.form.get("gender", "").strip()
+        activity = request.form.get("activity", "").strip()
+        goal = request.form.get("goal", "").strip()
         allergies = request.form.getlist("allergies")
 
-        # Gọi hàm chạy KNN
+        # Kiểm tra kiểu dữ liệu trước khi ép kiểu
+        if not raw_age:
+            raise ValueError("Vui lòng nhập độ tuổi.")
+        try:
+            age = int(raw_age)
+        except ValueError:
+            raise ValueError("Độ tuổi phải là một số tự nhiên (không chứa chữ hay số thập phân).")
+
+        if not raw_height:
+            raise ValueError("Vui lòng nhập chiều cao.")
+        try:
+            height = float(raw_height)
+        except ValueError:
+            raise ValueError("Chiều cao phải là một số hợp lệ.")
+
+        if not raw_weight:
+            raise ValueError("Vui lòng nhập cân nặng.")
+        try:
+            weight = float(raw_weight)
+        except ValueError:
+            raise ValueError("Cân nặng phải là một số hợp lệ.")
+
+        # Gọi hàm chạy KNN (hàm này sẽ kiểm tra chi tiết các ràng buộc hợp lý)
         data = get_recommendations(age, weight, height, gender, activity, goal, allergies)
 
-        # Render kết quả ra trang result.html
+        # Render kết quả ra trang meals.html
         return render_template(
             "meals.html", target=data["target"], menus=data["menus"]
         )
 
+    except ValueError as ve:
+        return render_template(
+            "index.html", error=str(ve), form_data=request.form
+        ), 400
     except Exception as e:
-        return f"Đã xảy ra lỗi: {str(e)}"
+        return render_template(
+            "index.html", error=f"Đã xảy ra lỗi: {str(e)}", form_data=request.form
+        ), 500
 
 
 @app.route("/finalize", methods=["POST"])

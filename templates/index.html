@@ -14,43 +14,75 @@
         <p class="text-gray-500 mt-2">Hỗ trợ lựa chọn thực đơn cho người tập thể hình</p>
       </div>
 
+      {% if error %}
+      <div class="mb-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-lg flex items-start space-x-3">
+        <span class="text-red-500 text-xl font-bold">⚠️</span>
+        <div>
+          <h4 class="text-sm font-bold text-red-800">Dữ liệu nhập vào chưa hợp lệ:</h4>
+          <p class="text-sm text-red-700 mt-1">{{ error }}</p>
+        </div>
+      </div>
+      {% endif %}
+
       <form action="/predict" method="POST" class="space-y-6">
         <!-- Chia 2 cột cho các chỉ số cơ thể -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label class="block text-sm font-semibold text-gray-700 mb-1">Độ tuổi</label>
+            <div class="flex justify-between items-center mb-1">
+              <label class="block text-sm font-semibold text-gray-700">Độ tuổi</label>
+              <span class="text-xs text-gray-400">10 - 120 tuổi</span>
+            </div>
             <input
               type="number"
               name="age"
+              min="10"
+              max="120"
+              step="1"
               required
+              value="{{ form_data.age if form_data else '' }}"
               placeholder="VD: 21"
               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" />
           </div>
           <div>
-            <label class="block text-sm font-semibold text-gray-700 mb-1">Giới tính</label>
+            <div class="flex justify-between items-center mb-1">
+              <label class="block text-sm font-semibold text-gray-700">Giới tính</label>
+            </div>
             <select
               name="gender"
               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
-              <option value="nam">Nam</option>
-              <option value="nu">Nữ</option>
+              <option value="nam" {% if form_data and form_data.gender == 'nam' %}selected{% endif %}>Nam</option>
+              <option value="nu" {% if form_data and form_data.gender == 'nu' %}selected{% endif %}>Nữ</option>
             </select>
           </div>
           <div>
-            <label class="block text-sm font-semibold text-gray-700 mb-1">Chiều cao (cm)</label>
+            <div class="flex justify-between items-center mb-1">
+              <label class="block text-sm font-semibold text-gray-700">Chiều cao (cm)</label>
+              <span class="text-xs text-gray-400">50 - 250 cm</span>
+            </div>
             <input
               type="number"
               name="height"
+              min="50"
+              max="250"
+              step="0.1"
               required
+              value="{{ form_data.height if form_data else '' }}"
               placeholder="VD: 175"
               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" />
           </div>
           <div>
-            <label class="block text-sm font-semibold text-gray-700 mb-1">Cân nặng (kg)</label>
+            <div class="flex justify-between items-center mb-1">
+              <label class="block text-sm font-semibold text-gray-700">Cân nặng (kg)</label>
+              <span class="text-xs text-gray-400">20 - 300 kg</span>
+            </div>
             <input
               type="number"
               name="weight"
+              min="20"
+              max="300"
               step="0.1"
               required
+              value="{{ form_data.weight if form_data else '' }}"
               placeholder="VD: 68.5"
               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" />
           </div>
@@ -62,10 +94,10 @@
           <select
             name="activity"
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
-            <option value="it_van_dong">Ít vận động (Không tập)</option>
-            <option value="nhe">Vận động nhẹ (Tập 1-3 ngày/tuần)</option>
-            <option value="vua">Vận động vừa (Tập 3-5 ngày/tuần)</option>
-            <option value="nhieu">Vận động nhiều (Tập nặng)</option>
+            <option value="it_van_dong" {% if form_data and form_data.activity == 'it_van_dong' %}selected{% endif %}>Ít vận động (Không tập)</option>
+            <option value="nhe" {% if form_data and form_data.activity == 'nhe' %}selected{% endif %}>Vận động nhẹ (Tập 1-3 ngày/tuần)</option>
+            <option value="vua" {% if form_data and form_data.activity == 'vua' %}selected{% endif %}>Vận động vừa (Tập 3-5 ngày/tuần)</option>
+            <option value="nhieu" {% if form_data and form_data.activity == 'nhieu' %}selected{% endif %}>Vận động nhiều (Tập nặng)</option>
           </select>
         </div>
 
@@ -74,9 +106,9 @@
           <select
             name="goal"
             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none bg-white">
-            <option value="giam_mo">Giảm Mỡ</option>
-            <option value="giu_can">Giữ Dáng</option>
-            <option value="tang_co">Tăng Cơ</option>
+            <option value="giam_mo" {% if form_data and form_data.goal == 'giam_mo' %}selected{% endif %}>Giảm Mỡ</option>
+            <option value="giu_can" {% if form_data and form_data.goal == 'giu_can' %}selected{% endif %}>Giữ Dáng</option>
+            <option value="tang_co" {% if form_data and form_data.goal == 'tang_co' %}selected{% endif %}>Tăng Cơ</option>
           </select>
         </div>
 
@@ -88,6 +120,7 @@
                 type="checkbox"
                 name="allergies"
                 value="no_pork"
+                {% if form_data and 'no_pork' in form_data.getlist('allergies') %}checked{% endif %}
                 class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4" />
               <span class="ml-2 text-sm text-gray-700">Thịt lợn (heo)</span>
             </label>
@@ -96,6 +129,7 @@
                 type="checkbox"
                 name="allergies"
                 value="no_beef"
+                {% if form_data and 'no_beef' in form_data.getlist('allergies') %}checked{% endif %}
                 class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4" />
               <span class="ml-2 text-sm text-gray-700">Thịt bò</span>
             </label>
@@ -104,6 +138,7 @@
                 type="checkbox"
                 name="allergies"
                 value="no_seafood"
+                {% if form_data and 'no_seafood' in form_data.getlist('allergies') %}checked{% endif %}
                 class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4" />
               <span class="ml-2 text-sm text-gray-700">Hải sản (Cá, Tôm)</span>
             </label>
@@ -112,6 +147,7 @@
                 type="checkbox"
                 name="allergies"
                 value="no_peanut"
+                {% if form_data and 'no_peanut' in form_data.getlist('allergies') %}checked{% endif %}
                 class="rounded border-gray-300 text-green-600 focus:ring-green-500 w-4 h-4" />
               <span class="ml-2 text-sm text-gray-700">Lạc (Đậu phộng)</span>
             </label>
